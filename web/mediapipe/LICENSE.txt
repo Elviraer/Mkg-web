@@ -1,0 +1,19 @@
+Vendored WebAssembly runtime for the MK face grid tool
+=====================================================
+
+Files:
+* wasm/vision_wasm_internal.js   (203,819 bytes, sha256 33A4125F825B343D2D9773951A73692F40BEE368C9B591AF8FF652FD501AF90B)
+* wasm/vision_wasm_internal.wasm (9,514,390 bytes, sha256 C88CF472DD5CAB0A3954B071E5F442102DED3701DCCCC987A7A02EE8F54AAE85)
+
+Origin:
+* npm package `@mediapipe/tasks-vision@1.0.1`, directory `wasm/`
+* project: https://github.com/google-ai-edge/mediapipe
+* they are copied verbatim into `apps/web/public/` so both the browser build and the
+  packaged Tauri/WebView2 build load them from the same origin without any network access.
+
+License:
+* Apache License 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+
+The matching face landmark model and its notice live in
+`apps/web/public/models/face-landmarker.task` and
+`apps/web/public/models/face-landmarker.license.txt`.

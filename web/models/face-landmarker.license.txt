@@ -1,0 +1,17 @@
+Model Information:
+* title:	MediaPipe Face Landmarker (float16, 1)
+* source:	https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task
+* vendor:	Google LLC (MediaPipe Tasks)
+* file:	face-landmarker.task (3,758,596 bytes)
+* sha256:	64184E229B263107BC2B804C6625DB1341FF2BB731874B0BCC2FE6544E0BC9FF
+
+Model License:
+* license type:	Apache License 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+* requirements:	保留版权、许可与免责声明；可用于商业与非商业用途
+
+Notes:
+* The MK desktop media-analysis component pins the same file (same SHA-256) in
+  `apps/desktop/scripts/install-media-analysis.ps1`, so the browser face grid and the
+  optional Python worker share one model source of truth.
+* The WebAssembly runtime that executes this model is vendored next to it under
+  `apps/web/public/mediapipe/` and is covered by `apps/web/public/mediapipe/LICENSE.txt`.

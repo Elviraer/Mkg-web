@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Local runtimes and external tools
+runtime/
+node-runtime.exe
+ffmpeg-*/
+
+# Runtime data and user content
+data/
+uploads/
+server/data/
+server/uploads/
+*.sqlite
+*.sqlite-*
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.bak-*
+.mkg-*
+
+# Editor and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
