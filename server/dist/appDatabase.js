@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import Database from 'better-sqlite3';
-import { isAssetRef, readAuthoritativeAssetRef } from '@ftv/shared';
+import { isAssetRef, readAuthoritativeAssetRef } from '@mkg/shared';
 const SQLITE_HEADER = Buffer.from('SQLite format 3\0', 'utf8');
 const SQLJS_BACKUP_SUFFIX = '.sqljs-backup';
 const STORAGE_DRIVER_KEY = 'storage_driver';

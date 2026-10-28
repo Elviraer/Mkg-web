@@ -1,4 +1,4 @@
-import { automationCommandTypes, automationCommandDefinitions, automationSessionIdleTimeoutOptions, defaultAutomationApprovalPolicy, } from '@ftv/shared';
+import { automationCommandTypes, automationCommandDefinitions, automationSessionIdleTimeoutOptions, defaultAutomationApprovalPolicy, } from '@mkg/shared';
 import { WebSocket, WebSocketServer } from 'ws';
 const send = (socket, message) => {
     if (socket.readyState === WebSocket.OPEN)

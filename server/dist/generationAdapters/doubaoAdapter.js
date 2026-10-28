@@ -1,4 +1,4 @@
-import { DOUBAO_REFERENCE_IMAGE_LIMIT } from '@ftv/shared';
+import { DOUBAO_REFERENCE_IMAGE_LIMIT } from '@mkg/shared';
 import { doubaoTaskAssetUrls, normalizeGenerationStatus } from '../generationParsers.js';
 import { firstHealthyGateway } from '../gatewayClient.js';
 import { fetchJson } from '../httpClient.js';

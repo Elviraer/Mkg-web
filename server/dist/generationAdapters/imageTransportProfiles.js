@@ -1,4 +1,4 @@
-import { inferProviderImageTransportProfile, normalizeProviderImageTransportProfile } from '@ftv/shared';
+import { inferProviderImageTransportProfile, normalizeProviderImageTransportProfile } from '@mkg/shared';
 const imageTransportContracts = {
     'openai-images': {
         id: 'openai-images',

@@ -1,7 +1,7 @@
 import { extractGenerationUrls, extractTextContent, normalizeGenerationStatus } from '../generationParsers.js';
 import { asUniqueList, fetchJson } from '../httpClient.js';
 import { createProviderOutboundPolicy, openAiEndpointUrl } from '../providers.js';
-import { compileImageRequestParameters } from '@ftv/shared';
+import { compileImageRequestParameters } from '@mkg/shared';
 import { getErrorMessage, readErrorMessage } from '../unknownJson.js';
 import { assertNoUnsupportedLocalMediaReferences, extractUrlsFromGeneratedText, openAiCompatibleEndpointCandidates, prepareOpenAiCompatibleImageReferences, readGenerationFailureReason, readGenerationStatus, readGenerationTaskId, toTextReferenceNote } from './openAiCompatibleUtils.js';
 import { resolveModelParameterCapabilities } from './modelParameterCapabilities.js';

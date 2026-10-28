@@ -1,4 +1,4 @@
-import { automationCommandDefinitions, automationSessionIdleTimeoutOptions, defaultAutomationApprovalPolicy, } from '@ftv/shared';
+import { automationCommandDefinitions, automationSessionIdleTimeoutOptions, defaultAutomationApprovalPolicy, } from '@mkg/shared';
 import { createHash, randomBytes, randomUUID, timingSafeEqual } from 'node:crypto';
 const SESSION_REQUEST_TTL_MS = 2 * 60 * 1000;
 const CANVAS_TICKET_TTL_MS = 60 * 1000;

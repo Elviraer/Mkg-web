@@ -1,4 +1,4 @@
-import { DOLA_REFERENCE_IMAGE_LIMIT } from '@ftv/shared';
+import { DOLA_REFERENCE_IMAGE_LIMIT } from '@mkg/shared';
 import { dolaTaskAssetUrls, normalizeGenerationStatus } from '../generationParsers.js';
 import { firstHealthyGateway } from '../gatewayClient.js';
 import { fetchJson } from '../httpClient.js';

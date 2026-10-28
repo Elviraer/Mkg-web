@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { randomUUID } from 'crypto';
-import { imageTransportFromLegacyRequestProfile, normalizeImageGenerationPresetId, normalizeImageRequestEncoding, normalizeVideoRequestEncoding, normalizeProviderImageTransportProfile, normalizeProviderGenerationEndpoints, normalizeProviderMediaGenerationContracts, normalizeProviderModelCapabilityOverrides, normalizeGenerationTimeoutPolicy } from '@ftv/shared';
+import { imageTransportFromLegacyRequestProfile, normalizeImageGenerationPresetId, normalizeImageRequestEncoding, normalizeVideoRequestEncoding, normalizeProviderImageTransportProfile, normalizeProviderGenerationEndpoints, normalizeProviderMediaGenerationContracts, normalizeProviderModelCapabilityOverrides, normalizeGenerationTimeoutPolicy } from '@mkg/shared';
 import { Router } from 'express';
 import { asUniqueList, fetchJson } from '../httpClient.js';
 import { detectMediaBuffer } from '../mediaFileType.js';

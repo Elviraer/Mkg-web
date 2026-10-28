@@ -4,7 +4,7 @@ export const XYQ_REFERENCE_IMAGE_LIMIT = 9;
 /**
  * Reference image limits declared by the native gateways. Every other protocol
  * (custom OpenAI-compatible providers and the remaining built-in providers)
- * declares its own limits, so FTV must not pre-filter their references.
+ * declares its own limits, so mkg must not pre-filter their references.
  */
 export const getProviderReferenceImageLimit = (protocol) => {
     if (protocol === 'doubao-gateway')

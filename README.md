@@ -40,7 +40,7 @@ npm start
 ├─ start.bat            # 一键启动脚本
 ├─ scripts\start.mjs    # 跨平台启动入口与本地环境探测
 ├─ package.json         # Node.js 项目配置和运行脚本
-├─ vendor\ftv-shared\   # 后端使用的本地共享包
+├─ vendor\mkg-shared\   # 后端使用的本地共享包
 ├─ web\                 # 前端 SPA 构建产物
 │   ├─ index.html
 │   ├─ assets\          # JS/CSS 打包产物

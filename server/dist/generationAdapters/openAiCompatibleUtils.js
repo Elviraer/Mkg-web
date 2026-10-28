@@ -1,4 +1,4 @@
-import { isGptImageModel } from '@ftv/shared';
+import { isGptImageModel } from '@mkg/shared';
 import { asUniqueList } from '../httpClient.js';
 import { openAiEndpointUrl, trimTrailingSlash } from '../providers.js';
 import { readField, readString } from '../unknownJson.js';
@@ -19,7 +19,7 @@ export const parseSizeFromRatio = (ratio) => {
         return '1792x1024';
     return '1024x1024';
 };
-export { isGptImageModel } from '@ftv/shared';
+export { isGptImageModel } from '@mkg/shared';
 export const shouldUseLegacyImageResponseFormat = (model) => !isGptImageModel(model);
 export const extractUrlsFromGeneratedText = (value) => {
     const urls = [];

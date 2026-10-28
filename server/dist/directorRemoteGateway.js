@@ -1,4 +1,4 @@
-import { isDirectorRemoteSignal } from '@ftv/shared';
+import { isDirectorRemoteSignal } from '@mkg/shared';
 import { WebSocket, WebSocketServer } from 'ws';
 function send(socket, message) {
     if (socket?.readyState === WebSocket.OPEN)

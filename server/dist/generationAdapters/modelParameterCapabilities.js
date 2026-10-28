@@ -1,1 +1,1 @@
-export { isSeedAudioGenerationModel, normalizeAudioParameters, normalizeImageParameters, normalizeVideoParameters, resolveModelParameterCapabilities } from '@ftv/shared';
+export { isSeedAudioGenerationModel, normalizeAudioParameters, normalizeImageParameters, normalizeVideoParameters, resolveModelParameterCapabilities } from '@mkg/shared';

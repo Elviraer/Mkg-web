@@ -1,4 +1,4 @@
-import { compileImageRequestParameters, compileVideoRequestParameters, resolveModelParameterCapabilities } from '@ftv/shared';
+import { compileImageRequestParameters, compileVideoRequestParameters, resolveModelParameterCapabilities } from '@mkg/shared';
 import { fetchJson } from '../httpClient.js';
 import { createProviderOutboundPolicy } from '../providers.js';
 import { extractGenerationUrls, isGenerationPreviewResource, normalizeGenerationStatus } from '../generationParsers.js';

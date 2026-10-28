@@ -6,7 +6,7 @@ import fs from 'fs';
 import os from 'os';
 import { randomUUID } from 'node:crypto';
 import { fileURLToPath } from 'url';
-import { FTV_PRODUCT_VERSION } from '@ftv/shared';
+import { MKG_PRODUCT_VERSION } from '@mkg/shared';
 import { createAppDatabase } from './appDatabase.js';
 import { createHistoryAssetStore } from './historyAssetStore.js';
 import { persistAssetBlobFile } from './assetBlobStore.js';
@@ -42,7 +42,7 @@ import { createRoleRoutes } from './routes/roleRoutes.js';
 import { createAssetIdentityRoutes } from './routes/assetIdentityRoutes.js';
 import { createUploadRoutes } from './routes/uploadRoutes.js';
 import { createTrustedAssetUrlRegistry } from './trustedAssetUrlRegistry.js';
-import { normalizeGenerationTimeoutPolicy } from '@ftv/shared';
+import { normalizeGenerationTimeoutPolicy } from '@mkg/shared';
 import { createCorsMiddleware, createCorsOriginGuard, formatListeningOrigin, resolveAllowedCorsOrigins, resolveServerHost, } from './serverNetworkPolicy.js';
 import { isAuthorizedDesktopRequest, writeDesktopReadyFile } from './desktopRuntime.js';
 import { detectMediaBuffer, detectMediaFile } from './mediaFileType.js';
@@ -763,7 +763,7 @@ function startListening() {
                 origin: `${protocol}://127.0.0.1:${listeningPort}`,
             });
         }
-        console.log(`MK ${FTV_PRODUCT_VERSION} server listening on ${origin}`);
+        console.log(`MK ${MKG_PRODUCT_VERSION} server listening on ${origin}`);
     });
 }
 startListening();

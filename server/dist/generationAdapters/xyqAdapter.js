@@ -1,4 +1,4 @@
-import { XYQ_REFERENCE_IMAGE_LIMIT } from '@ftv/shared';
+import { XYQ_REFERENCE_IMAGE_LIMIT } from '@mkg/shared';
 import { extractGenerationUrls, normalizeGenerationStatus } from '../generationParsers.js';
 import { firstHealthyGateway } from '../gatewayClient.js';
 import { fetchJson } from '../httpClient.js';

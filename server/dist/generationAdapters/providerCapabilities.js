@@ -1,4 +1,4 @@
-import { isGptImageModel, resolveProviderProtocol as resolveSharedProviderProtocol } from '@ftv/shared';
+import { isGptImageModel, resolveProviderProtocol as resolveSharedProviderProtocol } from '@mkg/shared';
 export const resolveProviderProtocol = ({ providerId, providerName, provider, baseUrl }) => resolveSharedProviderProtocol({
     id: providerId ?? provider?.id,
     name: providerName ?? provider?.name,

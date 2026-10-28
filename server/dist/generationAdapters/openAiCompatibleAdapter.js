@@ -2,7 +2,7 @@ import { extractGenerationUrls, extractTextContent, normalizeGenerationStatus } 
 import { fetchBinary, fetchJson } from '../httpClient.js';
 import { createProviderOutboundPolicy, openAiEndpointUrl } from '../providers.js';
 import { getErrorMessage, readErrorMessage, readField, readString } from '../unknownJson.js';
-import { compileImageRequestParameters, compileVideoRequestParameters } from '@ftv/shared';
+import { compileImageRequestParameters, compileVideoRequestParameters } from '@mkg/shared';
 import { assertNoUnsupportedLocalMediaReferences, extractUrlsFromGeneratedText, isPublicHttpReference, openAiCompatibleEndpointCandidates, readGenerationFailureReason, readGenerationStatus, readGenerationTaskId, shouldUseLegacyImageResponseFormat, toTextReferenceNote } from './openAiCompatibleUtils.js';
 import { isSeedAudioGenerationModel, normalizeAudioParameters, normalizeVideoParameters, resolveModelParameterCapabilities } from './modelParameterCapabilities.js';
 import { applyProviderAuthorization, getOpenAiProviderProfile } from './openAiProviderProfiles.js';

@@ -1,4 +1,4 @@
-import { validateGenerationWorkflowDefinition } from '@ftv/shared';
+import { validateGenerationWorkflowDefinition } from '@mkg/shared';
 export const requireWorkflow = (context, protocol) => {
     const workflow = context.workflow;
     if (!workflow || workflow.protocol !== protocol)

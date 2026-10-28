@@ -1,4 +1,4 @@
-import { automationCommandDefinitions, parseAutomationCommandEnvelope, } from '@ftv/shared';
+import { automationCommandDefinitions, parseAutomationCommandEnvelope, } from '@mkg/shared';
 import { Router } from 'express';
 import { rateLimit } from 'express-rate-limit';
 const readBearerToken = (request) => {

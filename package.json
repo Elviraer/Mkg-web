@@ -10,7 +10,7 @@
     "start": "node scripts/start.mjs"
   },
   "dependencies": {
-    "@ftv/shared": "file:vendor/ftv-shared",
+    "@mkg/shared": "file:vendor/mkg-shared",
     "@modelcontextprotocol/sdk": "1.30.0",
     "better-sqlite3": "12.11.1",
     "commander": "14.0.3",

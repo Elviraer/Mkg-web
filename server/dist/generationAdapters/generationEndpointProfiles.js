@@ -1,4 +1,4 @@
-import { normalizeProviderGenerationEndpoints } from '@ftv/shared';
+import { normalizeProviderGenerationEndpoints } from '@mkg/shared';
 export const resolveGenerationEndpoint = ({ kind, protocol, configured }) => {
     if (kind !== 'image' && kind !== 'video')
         return undefined;

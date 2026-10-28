@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawn } from 'node:child_process';
-import { isAssetRef } from '@ftv/shared';
+import { isAssetRef } from '@mkg/shared';
 import { Router } from 'express';
 const readText = (value) => typeof value === 'string' && value.trim() ? value.trim() : undefined;
 const revealInFileManager = (sourcePath) => {
