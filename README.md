@@ -1,6 +1,6 @@
-# Mkg Web
+# Mkg-web
 
-MK 导演画布 Web 运行包。
+一款类 LibTV 的无限画布。
 
 ## 环境要求
 
